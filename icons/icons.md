@@ -29,3 +29,11 @@ https://www.flaticon.com/free-icon/css-3_732190?term=css&page=1&position=1&origi
 ## JS Logo
 
 https://www.flaticon.com/free-icon/js_5968292?term=js&page=1&position=2&origin=search&related_id=5968292
+
+## Sun
+
+https://www.flaticon.com/free-icon/sun_606795?term=sun&page=1&position=3&origin=search&related_id=606795
+
+## Moon
+
+https://www.flaticon.com/free-icon/moon_606807?term=moon&page=1&position=1&origin=search&related_id=606807
