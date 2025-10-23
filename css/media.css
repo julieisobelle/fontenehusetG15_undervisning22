@@ -1,0 +1,38 @@
+/* MEDIA for tablets and under*/
+@media (max-width: 769px) {
+    .hero,
+    .about,
+    .projects {
+      flex-direction: column;
+    }
+  
+    .heroText,
+    .heroImg,
+    .aboutText,
+    .aboutImg {
+      width: 100%;
+    }
+  
+    .headerNav {
+      flex-direction: column-reverse;
+      align-items: flex-end;
+    }
+  
+    .navList {
+      display: none;
+    }
+  
+    .hamburgerIcon {
+      display: flex;
+    }
+  
+    .hamburgerMenu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+      list-style-type: none;
+      padding-left: 0;
+    }
+  }
+  

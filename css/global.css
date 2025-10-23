@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* GOBAL VARIABLER */
+:root {
+  --primaryColor: red;
+  --secondaryColor: yellow;
+  --accentColor: green;
+
+  --fontFamily: "Roboto";
+
+  --spacingSmall: 8px;
+  --spacingMedium: 16px;
+  --spacingLarge: 24px;
+}
+
+/* GLOBAL STYLING */
+body {
+  margin: 0;
+}
+
+header {
+  background-color: var(--primaryColor);
+}
+
+section {
+  min-height: 100vh;
+  padding: var(--spacingMedium);
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
