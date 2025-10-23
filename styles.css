@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* GOBAL VARIABLER */
+:root {
+  --primaryColor: red;
+  --secondaryColor: yellow;
+  --accentColor: green;
+
+  --fontFamily: "Roboto";
+
+  --spacingSmall: 8px;
+  --spacingMedium: 16px;
+  --spacingLarge: 24px;
+}
+
+/* GLOBAL STYLING */
+body {
+  margin: 0;
+}
+
+header {
+  background-color: var(--primaryColor);
+}
+
+section {
+  min-height: 100vh;
+  padding: var(--spacingMedium);
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+/* GLOBAL STYLING */
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerNav {
+  display: flex;
+  padding: 8px;
+}
+
+.navList {
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.hamburgerIcon {
+  display: none;
+}
+
+/* MAIN */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.heroText,
+.heroImg {
+  text-align: center;
+  width: 50%;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.aboutImg,
+.aboutText {
+  width: 50%;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+  margin: var(--spacingSmall);
+  padding: var(--spacingSmall);
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid black;
+  padding: 16px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: black;
+}
+
+/* MEDIA for tablets and under*/
+@media (max-width: 769px) {
+  .hero,
+  .about,
+  .projects {
+    flex-direction: column;
+  }
+
+  .heroText,
+  .heroImg,
+  .aboutText,
+  .aboutImg {
+    width: 100%;
+  }
+
+  .headerNav {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .navList {
+    display: none;
+  }
+
+  .hamburgerIcon {
+    display: flex;
+  }
+
+  .hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
